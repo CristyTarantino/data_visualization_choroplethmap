@@ -1,0 +1,29 @@
+@import "typography";
+@import "spacing";
+@import "colors";
+@import "layout";
+
+*, *:after, *:before{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fcfaff;
+}
+
+main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.d3-tip {
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+}
+

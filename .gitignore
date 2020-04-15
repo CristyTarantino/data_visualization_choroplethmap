@@ -1,0 +1,10 @@
+# Editor configs
+.idea/
+
+# Dist folder
+
+dist/
+
+# Node Modules
+
+node_modules/

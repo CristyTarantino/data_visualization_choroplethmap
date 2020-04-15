@@ -1,0 +1,30 @@
+/* --------------------------------
+
+Colors
+
+-------------------------------- */
+
+:root {
+  /* typography */
+  --color-text: var(--gray-10);
+  --color-text-heading: var(--black);
+  --color-text-subtle: var(--gray-6);
+  --color-link: var(--color-primary);
+  --color-link-visited: var(--color-primary-dark);
+}
+
+body {
+  color: var(--color-text);
+}
+
+h1, h2, h3, h4, form legend {
+  color: var(--color-text-heading);
+}
+
+a {
+  color: var(--color-link);
+
+  &:visited {
+    color: var(--color-link-visited);
+  }
+}
